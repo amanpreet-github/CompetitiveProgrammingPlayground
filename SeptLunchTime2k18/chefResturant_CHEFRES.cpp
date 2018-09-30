@@ -63,9 +63,8 @@ Example Output
 
 using namespace std;
 
-long int
-binarySearch(vector <vector<long int>> &twoDimArray, long int start, long int end, long int m, long int n,
-             long int searchElement) {
+long int binarySearch(vector <vector<long int>> &twoDimArray, long int start, long int end, long int m, long int n,
+                      long int searchElement) {
 
 
     while (start <= end) {
